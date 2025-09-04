@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: r8169 (Linux kernel driver)
+Upstream-Contact: netdev@vger.kernel.org
+Source: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+Files: *
+Copyright: 2002-2025 Realtek Semiconductor Corp. and Linux kernel contributors
+License: GPL-2.0-only
+ The Linux kernel r8169 driver is licensed under the GNU General Public
+ License version 2 only.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in “/usr/share/common-licenses/GPL-2”.

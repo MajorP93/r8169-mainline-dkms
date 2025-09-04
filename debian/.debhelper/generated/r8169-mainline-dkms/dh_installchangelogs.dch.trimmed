@@ -1,0 +1,5 @@
+r8169-mainline-dkms (1.0) trixie; urgency=medium
+
+  * Initial release. Vendors r8169 from Linux v6.16.
+
+ -- MajorP93 <majorp@mailbox.org>  Thu, 04 Sep 2025 12:00:00 +0200

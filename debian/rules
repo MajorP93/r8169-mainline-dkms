@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+
+# Read the imported kernel tag (e.g. v6.16) to use as MODULE_VERSION
+VENDOR_TAG := $(shell cat VENDOR_TAG)
+
+%:
+	dh $@ --with dkms
+
+# Install our sources into /usr/src/r8169-mainline-<VENDOR_TAG>/
+override_dh_install:
+	mkdir -p debian/r8169-mainline-dkms/usr/src/r8169-mainline-$(VENDOR_TAG)
+	cp -a Makefile src dkms.conf debian/r8169-mainline-dkms/usr/src/r8169-mainline-$(VENDOR_TAG)/
+
+# Tell dh_dkms what "#MODULE_VERSION#" should be
+override_dh_dkms:
+	dh_dkms -V $(VENDOR_TAG)
+
+# No build/tests for a DKMS source package
+override_dh_auto_configure:
+	:
+override_dh_auto_build:
+	:
+override_dh_auto_test:
+	:

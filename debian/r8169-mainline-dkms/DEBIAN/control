@@ -1,0 +1,13 @@
+Package: r8169-mainline-dkms
+Version: 1.0
+Architecture: all
+Maintainer: MajorP93 <majorp@mailbox.org>
+Installed-Size: 218
+Depends: dkms (>= 3.0.0), make, gcc, linux-headers-amd64 | proxmox-default-headers
+Recommends: firmware-realtek
+Section: kernel
+Priority: optional
+Description: DKMS package for mainline Realtek r8169 (backported)
+ This package builds and installs the r8169 driver from a specified
+ Linux mainline tag/commit via DKMS, overriding the in-kernel r8169.
+ Useful to test recent fixes (e.g., ASPM-related changes) on older kernels.
