@@ -1,0 +1,11 @@
+bfdb5bf108408c7cb6c04aa02b6ea6aa  usr/share/doc/r8169-mainline-dkms/changelog.gz
+05ed528dcf3b8b19993fa65d23b706a5  usr/share/doc/r8169-mainline-dkms/copyright
+4008c490970eea58db54b53ccc9ad0f1  usr/src/r8169-mainline-v6.16/Makefile
+c1b53e899026aa8e0811ba5065f642f6  usr/src/r8169-mainline-v6.16/dkms.conf
+81452ff6d0f9b725fb85dcf6c3ce9c65  usr/src/r8169-mainline-v6.16/src/compat.h
+d3cd6c8d3abeb92e945deab4b0e62896  usr/src/r8169-mainline-v6.16/src/r8169.h
+19ecc1cdf07fe9e0bfb659a2c17522a8  usr/src/r8169-mainline-v6.16/src/r8169_firmware.c
+17f819f06e5a2dc4cb550105751a1ae7  usr/src/r8169-mainline-v6.16/src/r8169_firmware.h
+fc86abd24b193db616568908e0ba4624  usr/src/r8169-mainline-v6.16/src/r8169_leds.c
+89a789e0de85cc9a562ef5e68873364d  usr/src/r8169-mainline-v6.16/src/r8169_main.c
+75852703f304750fa4a98ce75e06334e  usr/src/r8169-mainline-v6.16/src/r8169_phy_config.c
